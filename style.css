@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.video-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white; /* Semi-transparent pour masquer l'arrière-plan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* S'assurer que le conteneur est au-dessus de tout le reste */
+}
+
+.video-overlay video {
+  max-width: 80%;
+  max-height: 80%;
+}
+.hidden {
+  display: none;
+}
+.content {
+  display: none; /* Masquer le contenu principal initialement */
+}
+.show-content .content {
+  display: block; /* Afficher le contenu principal une fois la vidéo terminée */
+  overflow: auto;
+}
+
+/*arrière plan du site avec plusieurs images qui change*/
+
+.arriere_plan {
+  animation: backgroundChange 30s infinite;
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-image: url("images/VTT/giant_fluo.JPEG");
+  }
+  50% {
+    background-image: url("images/VTT/CustomBike_\ \(14\).JPG");
+  }
+  100% {
+    background-image: url("images/VTT/orbea.JPEG");
+  }
+}
+.arriere_plan {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*fin du changement arrière plan*/
+
+/*Titre*/
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  background-color: rgba(255, 251, 251, 0.5);
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  background-color: #e1e0e6;
+  opacity: 0.6;
+  padding: 5px;
+  text-align: center;
+  width: 60%;
+  margin: 100px auto 80px auto;
+  border-radius: 10px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.6em;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 0.6em;
+}
+
+/*haut et pied de page */
+header,
+footer {
+  background: linear-gradient(to right, #6156c5, #5fc556);
+  height: auto;
+}
+footer {
+  text-align: center;
+  margin: 0;
+}
+.img_linkedin {
+  width: 60px;
+  height: 60px;
+  background: none;
+}
+.img_linkedin:hover {
+  opacity: 0.5;
+}
+.img_insta {
+  width: 60px;
+  height: 60px;
+  background: none;
+}
+.img_insta:hover {
+  opacity: 0.5;
+}
+.img_custom {
+  width: 60px;
+  height: 60px;
+  background: none;
+  padding-top: 5px;
+}
+.custom_realisation {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  color: #050505;
+  text-decoration: none;
+  border-radius: 10px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.custom_realisation:hover {
+  color: #2a16de;
+}
+.img_github {
+  width: 90px;
+  height: 50px;
+  background: none;
+}
+.img_github:hover {
+  opacity: 0.5;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.a-propos,
+.accueil {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  color: #0c0c0c;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.a-propos:hover {
+  color: #2a16de;
+}
+.accueil:hover {
+  color: #2a16de;
+}
+
+.contact {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  color: #0d0d0d;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+.contact_moi {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #0c0c0c;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.contact_moi:hover {
+  color: #2a16de;
+}
+
+.logo_pied-page {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  padding: 10px 0px 10px 0px;
+}
+.mail {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 0px 0px;
+}
+.mail_2 {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+.mail_2:hover {
+  color: #2a16de;
+}
+
+.tel {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 0px 20px;
+}
+.adresse {
+  width: 50px;
+  height: 40px;
+}
+.adresse_2 {
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  text-decoration: none;
+}
+.adresse_2:hover {
+  color: #2a16de;
+}
+/*style pour le numéro de téléphone*/
+span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+}
+/*fin des logo/lien haut et pied de page*/
+
+/*parcours professionelle décris*/
+.parcours {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  margin: 10px 0px 10px 0px;
+  text-align: justify;
+  font-weight: 320;
+  padding: 10px 20px 10px 10px;
+  background-color: rgb(181, 226, 226);
+  background-position: 50%;
+  opacity: 0.8;
+  border-radius: 10px;
+  line-height: 1.75;
+  text-indent: 3em;
+  width: 70%;
+  margin: 200px auto 200px auto;
+}
+ul {
+  margin: 10px 0px 10px 80px;
+}
+li {
+  font-weight: 700;
+}
+/*lien qui remonte en haut de la page*/
+.hautdepage {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  text-decoration: none;
+  color: #000000;
+}
+.hautdepage:hover {
+  color: #2a16de;
+}
+/*fin du lien de haut de page*/
+
+/*mention tous droit réservé*/
+.copyright {
+  margin: 15px;
+  padding-bottom: 10px;
+}
+/*style pour les images*/
+.customisation {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: aliceblue;
+  width: 100%;
+  font-weight: 1000;
+  text-align: center;
+  padding: 40px;
+  margin: 50px auto auto auto;
+}
+.roue {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: #6156c5;
+  width: 30%;
+  text-align: center;
+  border-radius: 40%;
+  padding: 5px;
+  margin: 50px auto auto auto;
+  background-color: white;
+  opacity: 0.8;
+}
+.avant-apres {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: #6156c5;
+  width: 30%;
+  text-align: center;
+  border-radius: 40%;
+  padding: 5px;
+  margin: 50px auto auto auto;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.img_bike_avant {
+  width: 400px;
+  height: 300px;
+  margin-top: 4em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_bike_avant:hover {
+  border: solid 1px blue;
+}
+.img_bike {
+  width: 400px;
+  height: 300px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_bike:hover {
+  border: solid 1px blue;
+}
+.img_bike2 {
+  width: 300px;
+  height: 300px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_bike2:hover {
+  border: solid 1px blue;
+}
+.img_bike_blue {
+  width: 400px;
+  height: 300px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_bike_blue:hover {
+  border: solid 1px blue;
+}
+
+.img_cube {
+  width: 400px;
+  height: 400px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+}
+.img_cube:hover {
+  border: solid 1px blue;
+}
+.img_cube_1 {
+  width: 400px;
+  height: 400px;
+  margin-top: 6em;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.groupeimg_0 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto auto 6em auto;
+}
+.groupeimg_1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.groupeimg_2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.groupeimg_3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto auto 6em auto;
+}
+.groupeimg_4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto auto 6em auto;
+}
+.groupeimg_5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+}
+.groupeimg_6 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto auto 6em auto;
+}
+
+/*fin du style des images*/
+
+/* Cacher le contrôleur audio natif */
+#background-music {
+  display: none;
+}
+
+/* Style du contrôleur personnalisé */
+#custom-audio-controls {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+#custom-audio-controls button {
+  background-color: #4c5caf;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 24px;
+  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.6);
+}
+
+#custom-audio-controls button:hover {
+  background-color: #bf23a5;
+}
+.bonjour {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5em;
+  background-color: rgba(255, 251, 251, 0.5);
+}
+.footer {
+  margin-top: 500px;
+}
