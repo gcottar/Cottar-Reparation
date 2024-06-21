@@ -34,21 +34,7 @@
 /*arrière plan du site avec plusieurs images qui change*/
 
 .arriere_plan {
-  animation: backgroundChange 30s infinite;
-}
-
-@keyframes backgroundChange {
-  0% {
-    background-image: url("images/VTT/giant_fluo.JPEG");
-  }
-  50% {
-    background-image: url("images/VTT/CustomBike_\ \(14\).JPG");
-  }
-  100% {
-    background-image: url("images/VTT/orbea.JPEG");
-  }
-}
-.arriere_plan {
+  background-image: url(images/VTT/IMG_2460.JPEG);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -97,10 +83,16 @@ footer {
   text-align: center;
   margin: 0;
 }
+.logo_cottar_cycle_1 {
+  margin: 10px 0px 0px 10px;
+  width: 200px;
+  height: 200px;
+  background: none;
+  border-radius: 50%;
+}
 .logo_cottar_cycle {
-  margin-top: 5px;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background: none;
   border-radius: 40px;
 }
