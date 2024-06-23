@@ -215,16 +215,14 @@ span {
   font-size: 1em;
   margin: 10px 0px 10px 0px;
   text-align: justify;
-  font-weight: 320;
-  padding: 10px 20px 10px 10px;
-  background-color: rgb(181, 226, 226);
-  background-position: 50%;
-  opacity: 0.8;
-  border-radius: 10px;
+  font-weight: 400;
+  padding: 10px 60px 40px 10px;
   line-height: 1.75;
   text-indent: 3em;
   width: 70%;
   margin: 200px auto 200px auto;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
 }
 ul {
   margin: 10px 0px 10px 80px;
