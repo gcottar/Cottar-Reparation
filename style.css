@@ -31,16 +31,16 @@
   overflow: auto;
 }
 
-/*arrière plan du site avec plusieurs images qui change*/
+/*arrière plan du site*/
 
 .arriere_plan {
-  background-image: url(images/VTT/IMG_2460.JPEG);
+  background: linear-gradient(to bottom, rgb(165, 93, 42), rgb(229, 213, 204));
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*fin du changement arrière plan*/
+/*fin arrière plan*/
 
 /*Titre*/
 
@@ -88,17 +88,8 @@ footer {
   width: 200px;
   height: 200px;
   background: none;
-  border-radius: 50%;
 }
-.logo_cottar_cycle {
-  width: 50px;
-  height: 50px;
-  background: none;
-  border-radius: 40px;
-}
-.logo_cottar_cycle:hover {
-  opacity: 0.7;
-}
+
 .img_insta {
   width: 60px;
   height: 60px;
@@ -171,6 +162,14 @@ nav {
   align-items: center;
   margin: auto;
   padding: 10px 0px 10px 0px;
+}
+.logo_cottar_cycle {
+  width: 50px;
+  height: 50px;
+  background: none;
+}
+.logo_cottar_cycle:hover {
+  opacity: 0.7;
 }
 .mail {
   width: 40px;
@@ -254,7 +253,7 @@ li {
 .customisation {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
-  color: aliceblue;
+  color: rgb(3, 3, 3);
   width: 100%;
   font-weight: 1000;
   text-align: center;
@@ -386,37 +385,6 @@ li {
 
 /*fin du style des images*/
 
-/* Cacher le contrôleur audio natif */
-#background-music {
-  display: none;
-}
-
-/* Style du contrôleur personnalisé */
-#custom-audio-controls {
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-  z-index: 1000;
-}
-
-#custom-audio-controls button {
-  background-color: #4c5caf;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 24px;
-  box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.6);
-}
-
-#custom-audio-controls button:hover {
-  background-color: #bf23a5;
-}
 .bonjour {
   text-align: center;
   font-family: "Montserrat", sans-serif;
