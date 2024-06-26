@@ -34,7 +34,7 @@
 /*arrière plan du site*/
 
 .arriere_plan {
-  background: linear-gradient(to bottom, rgb(165, 93, 42), rgb(229, 213, 204));
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(212, 233, 253));
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -44,20 +44,13 @@
 
 /*Titre*/
 
-h1 {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5em;
-  background-color: rgba(255, 251, 251, 0.5);
-}
-
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 3em;
   color: #0c0c0c;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
-  background-color: #e1e0e6;
-  opacity: 0.6;
+  background-color: #c5daf2;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   padding: 5px;
   text-align: center;
   width: 60%;
@@ -74,12 +67,13 @@ h3 {
 }
 
 /*haut et pied de page */
-header,
-footer {
-  background: linear-gradient(to right, #6156c5, #5fc556);
+header {
+  background: linear-gradient(to bottom, #ffffff, #87d7fc);
   height: auto;
 }
 footer {
+  background: linear-gradient(to top, #ffffff, #87d7fc);
+  height: auto;
   text-align: center;
   margin: 0;
 }
@@ -166,6 +160,8 @@ nav {
 .logo_cottar_cycle {
   width: 50px;
   height: 50px;
+  border: solid 1px black;
+  border-radius: 50%;
   background: none;
 }
 .logo_cottar_cycle:hover {
@@ -221,8 +217,8 @@ span {
   text-indent: 3em;
   width: 70%;
   margin: 200px auto 200px auto;
-  border-right: solid 1px white;
-  border-bottom: solid 1px white;
+  border-right: double black;
+  border-bottom: double black;
 }
 ul {
   margin: 10px 0px 10px 80px;
