@@ -32,7 +32,36 @@
 }
 
 /*arrière plan du site*/
-
+.img_background {
+  background-image: url("images/VTT/orbea.JPEG");
+  background-size: cover; /* L'image couvre tout le fond du conteneur */
+  background-attachment: fixed; /* L'image reste fixe lors du défilement */
+  background-position: center; /* L'image est centrée */
+  background-repeat: no-repeat; /* L'image ne se répète pas */
+  height: 400px; /* Définir la hauteur du conteneur */
+  width: 100%; /* Définir la largeur du conteneur */
+  overflow: auto; /* Permettre le défilement si le contenu dépasse la hauteur du conteneur */
+}
+.img_background_apropos {
+  background-image: url("images/VTT/CustomBike_\ \(40\).JPG");
+  background-size: cover; /* L'image couvre tout le fond du conteneur */
+  background-attachment: fixed; /* L'image reste fixe lors du défilement */
+  background-position: center; /* L'image est centrée */
+  background-repeat: no-repeat; /* L'image ne se répète pas */
+  height: 400px; /* Définir la hauteur du conteneur */
+  width: 100%; /* Définir la largeur du conteneur */
+  overflow: auto; /* Permettre le défilement si le contenu dépasse la hauteur du conteneur */
+}
+.img_background_realisation {
+  background-image: url("images/VTT/mont_darret.JPEG");
+  background-size: cover; /* L'image couvre tout le fond du conteneur */
+  background-attachment: fixed; /* L'image reste fixe lors du défilement */
+  background-position: center; /* L'image est centrée */
+  background-repeat: no-repeat; /* L'image ne se répète pas */
+  height: 400px; /* Définir la hauteur du conteneur */
+  width: 100%; /* Définir la largeur du conteneur */
+  overflow: auto; /* Permettre le défilement si le contenu dépasse la hauteur du conteneur */
+}
 .arriere_plan {
   background: linear-gradient(to right, rgb(255, 255, 255), rgb(212, 233, 253));
   background-attachment: fixed;
@@ -69,7 +98,7 @@ h3 {
 /*haut et pied de page */
 header {
   background: linear-gradient(to bottom, #ffffff, #87d7fc);
-  height: auto;
+  height: 4em;
 }
 footer {
   background: linear-gradient(to top, #ffffff, #87d7fc);
@@ -146,7 +175,20 @@ nav {
   color: #0c0c0c;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+.contact_moi_bis {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 18px;
+  color: #0c0c0c;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
 .contact_moi:hover {
+  color: #2a16de;
+}
+.contact_moi_bis:hover {
   color: #2a16de;
 }
 
