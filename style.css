@@ -271,8 +271,8 @@ span {
   text-indent: 3em;
   width: 70%;
   margin: 200px auto 200px auto;
-  border-right: double black;
-  border-bottom: double black;
+  border-right: groove black;
+  border-bottom: groove black;
 }
 ul {
   margin: 10px 0px 10px 80px;
