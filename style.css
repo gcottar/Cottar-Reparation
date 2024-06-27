@@ -104,7 +104,8 @@ h3 {
   color: #0c0c0c;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   text-align: center;
-  margin-bottom: 0.6em;
+  margin-bottom: 10px;
+  padding-top: 20px;
 }
 
 /*haut et pied de page */
@@ -114,7 +115,6 @@ header {
 }
 footer {
   background: linear-gradient(to top, #ffffff, #87d7fc);
-  height: auto;
   text-align: center;
   margin: 0;
 }
@@ -233,6 +233,8 @@ nav {
   width: 200px;
   height: 200px;
   background: none;
+  border-radius: 100px;
+  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.6);
 }
 .mail {
   width: 40px;
@@ -276,16 +278,17 @@ span {
 .parcours {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
-  margin: 10px 0px 10px 0px;
   text-align: justify;
   font-weight: 400;
   padding: 10px 60px 40px 10px;
   line-height: 1.75;
   text-indent: 3em;
   width: 70%;
+  box-shadow: 8px 6px 8px rgba(0, 0, 0, 0.5);
   margin: 200px auto 200px auto;
-  border-right: groove black;
-  border-bottom: groove black;
+  border-right: solid 0.1px black;
+  border-bottom: solid 0.1px black;
+  border-radius: 20px;
 }
 ul {
   margin: 10px 0px 10px 80px;
@@ -296,16 +299,30 @@ li {
 .intro {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
-  margin: 10px 0px 10px 0px;
   text-align: justify;
   font-weight: 400;
-  padding: 10px 60px 40px 10px;
+  padding: 0px 40px 0px 40px;
   line-height: 1.75;
   text-indent: 3em;
   width: 70%;
-  margin: auto;
-  border-left: groove black;
-  border-top: groove black;
+  margin: -50px auto 0px auto;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.border-paragraphe {
+  height: 100px;
+  width: 180px;
+  margin: 40px 0px 0px 200px;
+  border-left: double rgb(100, 100, 100);
+  border-top: double rgb(124, 123, 123);
+  border-radius: 20px 0px 0px 0px;
+}
+.border-paragraphe_2 {
+  height: 100px;
+  width: 180px;
+  margin: -70px 0px 60px 1140px;
+  border-right: double rgb(100, 100, 100);
+  border-bottom: double rgb(124, 123, 123);
+  border-radius: 0px 0px 20px 0px;
 }
 .tarifs {
   font-family: "Montserrat", sans-serif;
@@ -338,35 +355,48 @@ li {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   color: rgb(3, 3, 3);
-  width: 100%;
   font-weight: 1000;
   text-align: center;
-  padding: 40px;
-  margin: 50px auto auto auto;
+  padding: 40px 0px 40px 40px;
+  margin: auto;
+  text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
+}
+.border-paragraphe_custom_1 {
+  height: 80px;
+  width: 200px;
+  margin: 60px 0px -90px 280px;
+  border-left: double rgb(100, 100, 100);
+  border-top: double rgb(124, 123, 123);
+  border-radius: 20px 0px 0px 0px;
+}
+.border-paragraphe_custom_2 {
+  height: 80px;
+  width: 200px;
+  margin: -80px 0px 60px 1080px;
+  border-right: double rgb(100, 100, 100);
+  border-bottom: double rgb(124, 123, 123);
+  border-radius: 0px 0px 20px 0px;
 }
 .roue {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
-  color: #6156c5;
+  color: #000000;
   width: 30%;
   text-align: center;
   border-radius: 40%;
   padding: 5px;
   margin: 50px auto auto auto;
-  background-color: white;
-  opacity: 0.8;
 }
 .avant-apres {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
-  color: #6156c5;
+  color: #000000;
   width: 30%;
   text-align: center;
   border-radius: 40%;
   padding: 5px;
   margin: 50px auto auto auto;
-  background-color: white;
-  opacity: 0.8;
+  text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
 .img_bike_avant {
@@ -464,7 +494,7 @@ li {
   width: 400px;
   height: 300px;
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
-  margin: 50px 0px 60px 50px;
+  margin: 40px 0px 0px 50px;
   border-radius: 82% 18% 87% 13% / 22% 85% 15% 78%;
   opacity: 0.8;
 }
@@ -473,8 +503,24 @@ li {
   width: 400px;
   height: 300px;
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
-  margin: 0px 0px 20px 1050px;
+  margin: 0px 0px 40px 1050px;
   border-radius: 23% 77% 14% 86% / 80% 17% 83% 20%;
   opacity: 0.8;
 }
 /*fin du style des images*/
+.border_contact_1 {
+  height: 100px;
+  width: 180px;
+  margin: -60px 0px -40px 1120px;
+  border-right: double rgb(100, 100, 100);
+  border-top: double rgb(124, 123, 123);
+  border-radius: 0px 20px 0px 0px;
+}
+.border_contact_2 {
+  height: 100px;
+  width: 180px;
+  margin: -100px 0px 0px 250px;
+  border-left: double rgb(100, 100, 100);
+  border-bottom: double rgb(124, 123, 123);
+  border-radius: 0px 0px 0px 20px;
+}
