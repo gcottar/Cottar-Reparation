@@ -118,7 +118,15 @@ footer {
   text-align: center;
   margin: 0;
 }
-
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 0.6em;
+  margin-top: 10px;
+}
 .img_insta {
   width: 60px;
   height: 60px;
@@ -126,6 +134,11 @@ footer {
 }
 .img_insta:hover {
   opacity: 0.5;
+}
+.profil_fb {
+  width: 70px;
+  height: 70px;
+  background: none;
 }
 .img_custom {
   width: 60px;
@@ -203,7 +216,7 @@ nav {
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 10px 0px 10px 0px;
+  padding: 0px 0px 10px 0px;
 }
 .logo_cottar_cycle {
   width: 50px;
