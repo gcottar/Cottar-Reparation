@@ -33,37 +33,37 @@
 
 /*arrière plan du site*/
 .img_background {
-  background-image: url("images/VTT/orbea.JPEG");
+  background-image: url("images/VTT/orjan-windsland-rf1LLx8KFWc-unsplash.jpg");
   background-size: cover; /* L'image couvre tout le fond du conteneur */
   background-attachment: fixed; /* L'image reste fixe lors du défilement */
   background-position: center; /* L'image est centrée */
   background-repeat: no-repeat; /* L'image ne se répète pas */
-  height: 400px; /* Définir la hauteur du conteneur */
+  height: 500px; /* Définir la hauteur du conteneur */
   width: 100%; /* Définir la largeur du conteneur */
   overflow: auto; /* Permettre le défilement si le contenu dépasse la hauteur du conteneur */
 }
 .img_background_apropos {
-  background-image: url("images/VTT/CustomBike_\ \(40\).JPG");
+  background-image: url("images/VTT/adam-stefanca-JrM_SWb2gJA-unsplash.jpg");
   background-size: cover; /* L'image couvre tout le fond du conteneur */
   background-attachment: fixed; /* L'image reste fixe lors du défilement */
   background-position: center; /* L'image est centrée */
   background-repeat: no-repeat; /* L'image ne se répète pas */
-  height: 400px; /* Définir la hauteur du conteneur */
+  height: 500px; /* Définir la hauteur du conteneur */
   width: 100%; /* Définir la largeur du conteneur */
   overflow: auto; /* Permettre le défilement si le contenu dépasse la hauteur du conteneur */
 }
 .img_background_realisation {
-  background-image: url("images/VTT/mont_darret.JPEG");
+  background-image: url("images/VTT/nathanael-desmeules-mWPdKMZPEpU-unsplash.jpg");
   background-size: cover; /* L'image couvre tout le fond du conteneur */
   background-attachment: fixed; /* L'image reste fixe lors du défilement */
   background-position: center; /* L'image est centrée */
   background-repeat: no-repeat; /* L'image ne se répète pas */
-  height: 400px; /* Définir la hauteur du conteneur */
+  height: 500px; /* Définir la hauteur du conteneur */
   width: 100%; /* Définir la largeur du conteneur */
   overflow: auto; /* Permettre le défilement si le contenu dépasse la hauteur du conteneur */
 }
 .arriere_plan {
-  background: linear-gradient(to right, rgb(255, 255, 255), rgb(212, 233, 253));
+  background: linear-gradient(to bottom, #ffffff, #87d7fc);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,7 +72,19 @@
 /*fin arrière plan*/
 
 /*Titre*/
-
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 6em;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  background-color: #c5daf2;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  text-align: center;
+  width: 60%;
+  margin: 100px auto 80px auto;
+  border-radius: 10px;
+}
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 3em;
@@ -268,6 +280,29 @@ ul {
 li {
   font-weight: 700;
 }
+.intro {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  margin: 10px 0px 10px 0px;
+  text-align: justify;
+  font-weight: 400;
+  padding: 10px 60px 40px 10px;
+  line-height: 1.75;
+  text-indent: 3em;
+  width: 70%;
+  margin: auto;
+  border-left: groove black;
+  border-top: groove black;
+}
+.tarifs {
+  font-family: "Montserrat", sans-serif;
+  color: #356bb7;
+  font-weight: 500;
+  text-decoration: none;
+}
+.tarifs:hover {
+  color: #2a16de;
+}
 /*lien qui remonte en haut de la page*/
 .hautdepage {
   font-family: "Montserrat", sans-serif;
@@ -410,23 +445,23 @@ li {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: auto;
-}
-.groupeimg_6 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   margin: auto auto 6em auto;
 }
-
+.img_intro_1 {
+  width: 400px;
+  height: 300px;
+  box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
+  margin: 50px 0px 60px 50px;
+  border-radius: 82% 18% 87% 13% / 22% 85% 15% 78%;
+  opacity: 0.8;
+}
+.img_intro_2 {
+  position: bottom;
+  width: 400px;
+  height: 300px;
+  box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
+  margin: 0px 0px 20px 1050px;
+  border-radius: 23% 77% 14% 86% / 80% 17% 83% 20%;
+  opacity: 0.8;
+}
 /*fin du style des images*/
-
-.bonjour {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5em;
-  background-color: rgba(255, 251, 251, 0.5);
-}
-.footer {
-  margin-top: 500px;
-}
