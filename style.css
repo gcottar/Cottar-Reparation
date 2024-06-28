@@ -74,16 +74,21 @@
 /*Titre*/
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 6em;
+  font-size: 2em;
   color: #0c0c0c;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
-  background-color: #c5daf2;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   padding: 5px;
-  text-align: center;
   width: 60%;
-  margin: 100px auto 80px auto;
-  border-radius: 10px;
+  margin: 180px 0px 0px 80px;
+}
+.piece {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  width: 60%;
+  margin: 10px 0px 0px 1050px;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -116,7 +121,9 @@ header {
 footer {
   background: linear-gradient(to top, #ffffff, #87d7fc);
   text-align: center;
-  margin: 0;
+  margin: 10px 10px 0px 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
 }
 h4 {
   font-family: "Montserrat", sans-serif;
@@ -297,15 +304,36 @@ li {
 }
 .intro {
   font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  text-align: justify;
+  font-weight: 800;
+  padding: 0px 40px 0px 40px;
+  line-height: 1.75;
+  text-indent: 3em;
+  width: 70%;
+  margin: -50px auto 0px auto;
+}
+.montage_neuf {
+  font-family: "Montserrat", sans-serif;
   font-size: 1em;
   text-align: justify;
   font-weight: 400;
   padding: 0px 40px 0px 40px;
   line-height: 1.75;
   text-indent: 3em;
-  width: 70%;
-  margin: -50px auto 0px auto;
-  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+  width: 65%;
+  margin: 20px 30px 40px 90px;
+}
+.montage_piece {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  text-align: justify;
+  font-weight: 400;
+  padding: 0px 40px 0px 40px;
+  line-height: 1.75;
+  text-indent: 3em;
+  width: 50%;
+  margin: 20px 10px 50px 600px;
 }
 .border-paragraphe {
   height: 100px;
@@ -490,11 +518,11 @@ li {
   margin: auto auto 6em auto;
 }
 .img_intro_1 {
-  width: 400px;
+  width: 900px;
   height: 300px;
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
-  margin: 40px 0px 0px 50px;
-  border-radius: 82% 18% 87% 13% / 22% 85% 15% 78%;
+  margin: 40px 0px 0px 300px;
+  border-radius: 23% 77% 14% 86% / 80% 17% 83% 20%;
   opacity: 0.8;
 }
 .img_intro_2 {
@@ -502,9 +530,23 @@ li {
   width: 400px;
   height: 300px;
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
-  margin: 0px 0px 40px 1050px;
   border-radius: 23% 77% 14% 86% / 80% 17% 83% 20%;
   opacity: 0.8;
+  float: left;
+  margin: 0px 40px 20px 100px;
+}
+.img_intro_3 {
+  position: bottom;
+  width: 400px;
+  height: 300px;
+  box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
+  border-radius: 82% 18% 87% 13% / 22% 85% 15% 78%;
+  opacity: 0.8;
+  float: right;
+  margin: 0px 40px 20px 0px;
+}
+.clear {
+  clear: both;
 }
 /*fin du style des images*/
 .border_contact_1 {
