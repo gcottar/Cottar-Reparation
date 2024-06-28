@@ -72,14 +72,14 @@
 /*fin arrière plan*/
 
 /*Titre*/
-h1 {
+.montage_h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
   color: #0c0c0c;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   padding: 5px;
-  width: 60%;
-  margin: 180px 0px 0px 80px;
+  margin: 180px 0px 0px 60px; /* Pousse h1 vers la droite */
+  width: auto; /* Ajuste automatiquement la largeur */
 }
 .piece {
   font-family: "Montserrat", sans-serif;
@@ -88,7 +88,7 @@ h1 {
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
   padding: 5px;
   width: 60%;
-  margin: 10px 0px 0px 1050px;
+  margin-left: auto;
 }
 h2 {
   font-family: "Montserrat", sans-serif;
@@ -322,7 +322,7 @@ li {
   line-height: 1.75;
   text-indent: 3em;
   width: 65%;
-  margin: 20px 30px 40px 90px;
+  margin: 20px 0px 40px 60px;
 }
 .montage_piece {
   font-family: "Montserrat", sans-serif;
@@ -333,7 +333,7 @@ li {
   line-height: 1.75;
   text-indent: 3em;
   width: 50%;
-  margin: 20px 10px 50px 600px;
+  margin: 20px 0px 40px 600px;
 }
 .border-paragraphe {
   height: 100px;
@@ -524,6 +524,7 @@ li {
   margin: 40px 0px 0px 300px;
   border-radius: 23% 77% 14% 86% / 80% 17% 83% 20%;
   opacity: 0.8;
+  overflow-x: hidden;
 }
 .img_intro_2 {
   position: bottom;
@@ -533,7 +534,8 @@ li {
   border-radius: 23% 77% 14% 86% / 80% 17% 83% 20%;
   opacity: 0.8;
   float: left;
-  margin: 0px 40px 20px 100px;
+  margin: 0px 0px 0px 100px;
+  overflow-x: hidden;
 }
 .img_intro_3 {
   position: bottom;
@@ -543,7 +545,8 @@ li {
   border-radius: 82% 18% 87% 13% / 22% 85% 15% 78%;
   opacity: 0.8;
   float: right;
-  margin: 0px 40px 20px 0px;
+  margin: 40px 50px 0px 0px;
+  overflow-x: hidden;
 }
 .clear {
   clear: both;
