@@ -90,6 +90,16 @@
   width: 60%;
   margin-left: auto;
 }
+.tarifs_forfait {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: #0c0c0c;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  width: 60%;
+  text-align: center;
+  margin: 80px auto 20px auto;
+}
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 3em;
@@ -307,9 +317,9 @@ li {
 }
 .intro {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: justify;
-  font-weight: 800;
+  font-weight: 500;
   padding: 0px 40px 0px 40px;
   line-height: 1.75;
   text-indent: 3em;
@@ -338,6 +348,31 @@ li {
   width: 50%;
   margin: 20px 0px 40px 600px;
 }
+.entretien_suspension {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  text-align: justify;
+  font-weight: 400;
+  padding: 0px 40px 0px 40px;
+  line-height: 1.75;
+  text-indent: 3em;
+  width: 50%;
+  margin: 20px 0px 40px 500px;
+}
+.grille_tarifs {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 400;
+  padding: 0px 40px 0px 40px;
+  line-height: 1.75;
+  text-indent: 3em;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto auto 40px auto;
+}
 .border-paragraphe {
   height: 100px;
   width: 180px;
@@ -356,12 +391,17 @@ li {
 }
 .tarifs {
   font-family: "Montserrat", sans-serif;
-  color: #356bb7;
-  font-weight: 500;
+  color: #404040;
+  font-weight: 680;
   text-decoration: none;
+  font-size: 1.2em;
+  background-color: #87d7fc;
+  padding: 10px;
+  border-radius: 10px;
 }
 .tarifs:hover {
-  color: #2a16de;
+  color: #ffffff;
+  background-color: #0d0d0d;
 }
 /*lien qui remonte en haut de la page*/
 .hautdepage {
@@ -526,7 +566,6 @@ li {
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
   margin: 40px 0px 0px 300px;
   border-radius: 82% 18% 87% 13% / 22% 85% 15% 78%;
-
   overflow-x: hidden;
 }
 .img_intro_2 {
@@ -535,7 +574,6 @@ li {
   height: 300px;
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
   border-radius: 23% 77% 14% 86% / 80% 17% 83% 20%;
-
   float: left;
   margin: 0px 0px 0px 100px;
   overflow-x: hidden;
@@ -546,9 +584,18 @@ li {
   height: 300px;
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
   border-radius: 82% 18% 87% 13% / 22% 85% 15% 78%;
-
   float: right;
   margin: 40px 50px 0px 0px;
+  overflow-x: hidden;
+}
+.img_intro_4 {
+  position: bottom;
+  width: 200px;
+  height: 440px;
+  box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
+  border-radius: 43% 66% 24% 46% / 60% 127% 63% 40%;
+  float: left;
+  margin: 0px 0px 0px 200px;
   overflow-x: hidden;
 }
 .clear {
