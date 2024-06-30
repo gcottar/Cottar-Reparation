@@ -157,6 +157,9 @@ h4 {
   height: 70px;
   background: none;
 }
+.profil_fb:hover {
+  opacity: 0.5;
+}
 .img_custom {
   width: 60px;
   height: 60px;
@@ -172,7 +175,7 @@ h4 {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .custom_realisation:hover {
-  color: #2a16de;
+  color: #ffffff;
 }
 nav {
   display: flex;
@@ -189,10 +192,10 @@ nav {
   border-radius: 10px;
 }
 .a-propos:hover {
-  color: #2a16de;
+  color: #ffffff;
 }
 .accueil:hover {
-  color: #2a16de;
+  color: #ffffff;
 }
 
 .contact {
@@ -222,10 +225,10 @@ nav {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .contact_moi:hover {
-  color: #2a16de;
+  color: #ffffff;
 }
 .contact_moi_bis:hover {
-  color: #2a16de;
+  color: #ffffff;
 }
 
 .logo_pied-page {
@@ -264,7 +267,7 @@ nav {
   font-weight: 500;
 }
 .mail_2:hover {
-  color: #2a16de;
+  color: #ffffff;
 }
 
 .tel {
@@ -283,7 +286,7 @@ nav {
   font-weight: 500;
 }
 .adresse_2:hover {
-  color: #2a16de;
+  color: #ffffff;
 }
 /*style pour le numéro de téléphone*/
 span {
@@ -368,7 +371,7 @@ li {
   line-height: 1.75;
   text-indent: 3em;
   width: 50%;
-  background-color: #ffffff;
+  background-color: #def4c4;
   border-radius: 20px;
   padding: 20px;
   margin: auto auto 40px auto;
@@ -411,7 +414,9 @@ li {
   color: #000000;
 }
 .hautdepage:hover {
-  color: #2a16de;
+  color: #ffffff;
+  background-color: #80d5fc;
+  border-radius: 10px;
 }
 /*fin du lien de haut de page*/
 
