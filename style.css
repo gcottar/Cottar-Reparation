@@ -110,7 +110,7 @@ h2 {
   padding: 5px;
   text-align: center;
   width: 60%;
-  margin: 100px auto 80px auto;
+  margin: 60px auto 80px auto;
   border-radius: 10px;
 }
 h3 {
@@ -182,22 +182,6 @@ nav {
   justify-content: space-evenly;
   align-items: center;
 }
-.a-propos,
-.accueil {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
-  color: #0c0c0c;
-  text-decoration: none;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-}
-.a-propos:hover {
-  color: #ffffff;
-}
-.accueil:hover {
-  color: #ffffff;
-}
-
 .contact {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
@@ -230,7 +214,31 @@ nav {
 .contact_moi_bis:hover {
   color: #ffffff;
 }
-
+.mon_cv {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #0c0c0c;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.mon_cv:hover {
+  color: #ffffff;
+}
+.mon_cv_bis {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-top: 18px;
+  color: #0c0c0c;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.mon_cv_bis:hover {
+  color: #ffffff;
+}
 .logo_pied-page {
   display: flex;
   justify-content: center;
@@ -329,53 +337,6 @@ li {
   width: 70%;
   margin: -50px auto 0px auto;
 }
-.montage_neuf {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  text-align: justify;
-  font-weight: 400;
-  padding: 0px 40px 0px 40px;
-  line-height: 1.75;
-  text-indent: 3em;
-  width: 65%;
-  margin: 20px 0px 40px 60px;
-}
-.montage_piece {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  text-align: justify;
-  font-weight: 400;
-  padding: 0px 40px 0px 40px;
-  line-height: 1.75;
-  text-indent: 3em;
-  width: 50%;
-  margin: 20px 0px 40px 600px;
-}
-.entretien_suspension {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  text-align: justify;
-  font-weight: 400;
-  padding: 0px 40px 0px 40px;
-  line-height: 1.75;
-  text-indent: 3em;
-  width: 50%;
-  margin: 20px 0px 40px 500px;
-}
-.grille_tarifs {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1em;
-  text-align: center;
-  font-weight: 400;
-  padding: 0px 40px 0px 40px;
-  line-height: 1.75;
-  text-indent: 3em;
-  width: 50%;
-  background-color: #def4c4;
-  border-radius: 20px;
-  padding: 20px;
-  margin: auto auto 40px auto;
-}
 .border-paragraphe {
   height: 100px;
   width: 180px;
@@ -387,25 +348,12 @@ li {
 .border-paragraphe_2 {
   height: 100px;
   width: 180px;
-  margin: -70px 0px 60px 1140px;
+  margin: -70px 0px 60px 860px;
   border-right: double rgb(100, 100, 100);
   border-bottom: double rgb(124, 123, 123);
   border-radius: 0px 0px 20px 0px;
 }
-.tarifs {
-  font-family: "Montserrat", sans-serif;
-  color: #404040;
-  font-weight: 680;
-  text-decoration: none;
-  font-size: 1.2em;
-  background-color: #87d7fc;
-  padding: 10px;
-  border-radius: 10px;
-}
-.tarifs:hover {
-  color: #ffffff;
-  background-color: #0d0d0d;
-}
+
 /*lien qui remonte en haut de la page*/
 .hautdepage {
   font-family: "Montserrat", sans-serif;
@@ -575,22 +523,22 @@ li {
 }
 .img_intro_2 {
   position: bottom;
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 400px;
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
   border-radius: 23% 77% 14% 86% / 80% 17% 83% 20%;
   float: left;
-  margin: 0px 0px 0px 100px;
+  margin: 60px 40px 0px 40px;
   overflow-x: hidden;
 }
 .img_intro_3 {
   position: bottom;
-  width: 400px;
-  height: 300px;
+  width: 350px;
+  height: 400px;
   box-shadow: 8px 6px 8px rgba(5, 1, 46, 0.5);
   border-radius: 82% 18% 87% 13% / 22% 85% 15% 78%;
   float: right;
-  margin: 40px 50px 0px 0px;
+  margin: 500px 20px 0px 0px;
   overflow-x: hidden;
 }
 .img_intro_4 {
